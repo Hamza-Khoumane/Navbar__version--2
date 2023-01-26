@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="general-styles.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>NavBar</title>
+  </head>
+  <body>
+    <header class="header">
+      <section class="header__meta">
+        <form class="header__meta--form">
+          <fieldset>
+            <label for="language">Language</label>
+
+            <select name="language">
+              <option>Arabic</option>
+              <option>Turkey</option>
+              <option>Spanish</option>
+              <option>English</option>
+              <option>Moroccan</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <label for="currency">Currency</label>
+
+            <select name="currency">
+              <option>USD</option>
+              <option>USD</option>
+              <option>Euro</option>
+              <option>GBP</option>
+            </select>
+          </fieldset>
+        </form>
+
+        <nav class="header__meta--links">
+          <a href="#">About Us</a>
+          <a href="#">Order Tracking</a>
+          <a href="#">Contact Us</a>
+          <a href="#">FAQs</a>
+        </nav>
+      </section>
+
+      <section class="header__categories">
+        <div>
+          <a href="#" class="header__categories--logo">KH</a>
+
+          <form class="header__categories--form">
+            <select name="categories">
+              <option>All Categories</option>
+              <option>Womens</option>
+              <option>Mens</option>
+              <option>Accessories</option>
+              <option>Kids</option>
+              <option>More Items</option>
+            </select>
+
+            <input type="search" placeholder="I'm shopping for ..." />
+
+            <input type="submit" value="Search" />
+          </form>
+        </div>
+
+        <div>
+          <div class="header__categories--favorites">
+            <div>
+              <i class="fa-solid fa-heart"></i>
+              <span>3</span>
+            </div>
+
+            <div>
+              <a href="#">Favorites</a>
+              <a href="#">My Wishlist</a>
+            </div>
+          </div>
+
+          <div class="header__categories--login">
+            <div>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>1</span>
+            </div>
+
+            <div>
+              <a href="#">Login</a>
+              <a href="#">My Account</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <nav class="header__nav">
+        <ul class="header__nav--links">
+          <a href="#">Womens</a>
+          <a href="#">Mens</a>
+          <a href="#">Accessories</a>
+          <a href="#">Kids</a>
+          <a href="#">More Items</a>
+        </ul>
+
+        <p class="header__nav--help">
+          <i class="fa-solid fa-square-phone"></i> Need help? 0093 1234 567 8912
+        </p>
+      </nav>
+    </header>
+  </body>
+</html>
